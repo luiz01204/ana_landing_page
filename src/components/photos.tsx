@@ -7,10 +7,10 @@ export default function Photos() {
     "/cliente_2.webp",
     "/cliente_3.webp",
     "/cliente_4.webp",
-    "/cliente_5.webp",
+    "/cliente_5.jpg",
     "/cliente_6.webp",
     "/cliente_7.webp",
-    "/cliente_8.webp",
+    "/cliente_8.jpg",
     "/cliente_9.webp",
   ];
 

@@ -8,11 +8,11 @@ export default function Home() {
 
         {/* Coluna do texto */}
         <div className="flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6 pr-4">
-          <h1 className="text-5xl font-[Satisfy] text-[#b3827d]">
-            Ana Grigio Nails Designer
+          <h1 className="text-5xl text-[#b3827d]">
+            ANA GRIGIO NAILS
           </h1>
           <p className="text-xl font-light">
-            Unhas de Gel com Estilo e Elegância. Agende seu horário com quem entende do assunto.
+            Dedicação a beleza e ao cuidado das unhas, sempre com carinho, profissionalismo e atenção aos detalhes. 
           </p>
           <a
             href="https://wa.me/seunumeroaqui"

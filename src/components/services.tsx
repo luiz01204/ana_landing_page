@@ -1,38 +1,25 @@
-import { FaSpa, FaPaintBrush, FaTools, FaHandSparkles, FaGem, FaPlusCircle } from "react-icons/fa";
+import { FaSpa, FaHandSparkles, FaGem, FaPlusCircle, FaWhatsapp } from "react-icons/fa";
 
 export default function Services() {
   const services = [
     {
       icon: <FaGem size={28} />,
-      title: "Unhas de Gel",
+      title: "Alinhamento de lâmina",
       description: "Durabilidade e brilho para quem ama praticidade com estilo.",
     },
     {
-      icon: <FaPlusCircle size={28} />,
-      title: "Alongamento",
-      description: "Unhas longas e naturais com acabamento perfeito.",
-    },
-    {
-      icon: <FaTools size={28} />,
-      title: "Manutenção",
-      description: "Deixe suas unhas sempre impecáveis com nossa manutenção profissional.",
-    },
-    {
-      icon: <FaPaintBrush size={28} />,
-      title: "Nail Art",
-      description: "Arte personalizada para destacar sua personalidade.",
-    },
-    {
-      icon: <FaHandSparkles size={28} />,
-      title: "Fibra de Vidro",
-      description: "Resistência e beleza com técnica avançada.",
+      icon: <FaGem size={28} />,
+      title: "Blindagem",
+      description: "Para quem ama unhas naturais com durabilidade na esmaltação..",
     },
     {
       icon: <FaSpa size={28} />,
-      title: "Spa das Mãos",
-      description: "Cuidado, hidratação e relaxamento completo para suas mãos.",
+      title: "Spa dos Pés",
+      description: "Cuidado, hidratação e relaxamento completo para seus pés.",
     },
   ];
+
+  const phone = "5548998481349";
 
   return (
     <section className="bg-white py-20 px-6 text-black">
@@ -46,11 +33,22 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-[#f9f4f3] p-6 rounded-2xl shadow-md hover:shadow-lg hover:bg-rose-100 transition"
+              className="bg-[#f9f4f3] p-6 rounded-2xl shadow-md hover:shadow-lg hover:bg-rose-100 transition flex flex-col justify-between"
             >
-              <div className="text-[#b3827d] mb-4 flex justify-center">{service.icon}</div>
-              <h3 className="text-2xl font-semibold text-[#b3827d] mb-2">{service.title}</h3>
-              <p className="text-gray-700">{service.description}</p>
+              <div>
+                <div className="text-[#b3827d] mb-4 flex justify-center">{service.icon}</div>
+                <h3 className="text-2xl font-semibold text-[#b3827d] mb-2">{service.title}</h3>
+                <p className="text-gray-700 mb-6">{service.description}</p>
+              </div>
+              <a
+                href={`https://wa.me/${phone}?text=Olá, gostaria de saber mais sobre o serviço de ${encodeURIComponent(service.title)}.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto inline-flex items-center gap-2 bg-[#b3827d] text-white font-semibold px-6 py-3 rounded-full hover:bg-rose-300 transition justify-center"
+              >
+                <FaWhatsapp size={20} />
+                Fazer um orçamento
+              </a>
             </div>
           ))}
         </div>
