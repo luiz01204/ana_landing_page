@@ -34,7 +34,7 @@ export default function LinksPage() {
 
           {/* Site / Landing Page */}
           <a
-            href="https://anagrigionails.com.br"
+            href="https://ana-landing-page-puce.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-[#f9f4f3] text-[#b3827d] font-semibold px-6 py-4 rounded-full hover:bg-rose-100 transition"

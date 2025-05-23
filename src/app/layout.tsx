@@ -1,11 +1,5 @@
 import "./globals.css";
-import { Satisfy, Inter } from "next/font/google";
-
-const satisfy = Satisfy({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-satisfy",
-});
+import { Inter } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,15 +23,31 @@ export const metadata = {
     "manicure profissional Criciúma",
     "unhas de gel com alongamento",
     "unhas decoradas tendência Criciúma",
+    // Novas palavras-chave adicionadas
+    "blindagem de unhas",
+    "blindagem em gel",
+    "unhas blindadas",
+    "proteção de unhas",
+    "esmaltação blindada",
+    "blindagem para unhas fracas",
+    "spa para pés",
+    "tratamento para pés",
+    "esfoliação dos pés",
+    "hidratação profunda dos pés",
+    "relaxamento dos pés",
+    "alinhamento de lâmina",
+    "correção de lâmina ungueal",
+    "simetria das unhas",
+    "tratamento de ranhuras nas unhas",
+    "fortalecimento da lâmina ungueal"
   ],
-
   authors: [{ name: "Luiz Antonio Dos Santos" }],
   creator: "Luiz Antonio Dos Santos",
   openGraph: {
     title: "Ana Grigio | Nails Designer em Alta Floresta",
     description:
       "Landing page profissional da Ana Grigio, especialista em unhas de gel. Veja fotos, conheça os serviços e agende seu horário pelo WhatsApp.",
-    url: "https://anagrigionails.com.br", // Substitui pelo domínio real depois
+    url: "https://ana-landing-page-puce.vercel.app/",
     siteName: "Ana Grigio Nails",
     images: [
       {
@@ -50,7 +60,7 @@ export const metadata = {
     locale: "pt_BR",
     type: "website",
   },
-  metadataBase: new URL("https://anagrigionails.com.br"), // Substitui pelo domínio real
+  metadataBase: new URL("https://ana-landing-page-puce.vercel.app/"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
