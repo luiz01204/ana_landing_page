@@ -24,7 +24,7 @@ export default function Services() {
   return (
     <section className="bg-white py-20 px-6 text-black">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-[#b3827d] mb-4">Nossos Serviços</h2>
+        <h2 className="text-5xl font-bold text-[#b3827d] mb-4">Meus Serviços</h2>
         <p className="text-lg text-gray-600 mb-12">
           Tudo que você precisa para deixar suas unhas maravilhosas.
         </p>

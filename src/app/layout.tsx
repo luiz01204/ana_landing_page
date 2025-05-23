@@ -37,7 +37,7 @@ export const metadata = {
     title: "Ana Grigio | Nails Designer em Alta Floresta",
     description:
       "Landing page profissional da Ana Grigio, especialista em unhas de gel. Veja fotos, conheça os serviços e agende seu horário pelo WhatsApp.",
-    url: "https://seusite.com", // Substitui pelo domínio real depois
+    url: "https://anagrigionails.com.br", // Substitui pelo domínio real depois
     siteName: "Ana Grigio Nails",
     images: [
       {
@@ -50,7 +50,7 @@ export const metadata = {
     locale: "pt_BR",
     type: "website",
   },
-  metadataBase: new URL("https://seusite.com"), // Substitui pelo domínio real
+  metadataBase: new URL("https://anagrigionails.com.br"), // Substitui pelo domínio real
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

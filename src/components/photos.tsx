@@ -42,7 +42,7 @@ export default function Photos() {
         {/* Botão centralizado */}
         <a 
           target="_blank"
-          href="https://wa.me/5548999572643?text=Olá, vi suas fotos no site e quero agendar um horário! 💅"
+          href="https://wa.me/5548998481349?text=Olá, vi suas fotos no site e quero agendar um horário! 💅"
           className="inline-flex items-center gap-2 bg-[#b3827d] text-white font-semibold px-6 py-3 rounded-full hover:bg-rose-300 transition"
         >
           <FaWhatsapp size={20} />

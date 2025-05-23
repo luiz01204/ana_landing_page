@@ -15,7 +15,7 @@ export default function Home() {
             Dedicação a beleza e ao cuidado das unhas, sempre com carinho, profissionalismo e atenção aos detalhes. 
           </p>
           <a
-            href="https://wa.me/seunumeroaqui"
+            href="https://wa.me/5548998481349"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#b3827d] text-white font-semibold px-6 py-3 rounded-full hover:bg-rose-300 transition"

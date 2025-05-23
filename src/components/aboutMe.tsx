@@ -25,7 +25,7 @@ export default function AboutMe() {
           <p className="text-gray-700 text-lg leading-relaxed">
             Minha jornada com as unhas começou aos 13 anos, em um salão de beleza familiar.
             Por alguns anos fiz uma pausa profissional mas nunca deixei de fato de ter contato com as unhas.
-            Mas o amor pela profissão me fez retornar novamente, atendendo amigas na sala da minha casa e fui ganhando confiança, experiência e o amor das minhas clientes.
+            Mas o amor pela profissão me fez retornar novamente, atendendo amigas na sala da minha casa e assim fui ganhando confiança, experiência e o amor das minhas clientes.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Hoje, após muita dedicação, cursos e muito trabalho, me orgulho em oferecer um serviço profissional, com carinho, atenção aos detalhes e aquele toque especial que só quem ama o que faz consegue entregar.
@@ -39,7 +39,7 @@ export default function AboutMe() {
               <a 
                 target="_blank"
                 className="bg-[#b3827d] text-white font-semibold flex gap-2 rounded-full px-6 py-3 justify-center items-center cursor-pointer hover:bg-rose-300 transition"
-                href="https://wa.me/5548999572643?text=Olá vim pelo site e gostaria de mais informações..."
+                href="https://wa.me/5548998481349?text=Olá vim pelo site e gostaria de mais informações..."
               >
                 <FaWhatsapp size={20} />
                 Faça seu orçamento

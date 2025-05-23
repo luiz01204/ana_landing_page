@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Links sociais */}
         <div className="flex gap-6 text-2xl">
           <a
-            href="https://www.instagram.com/seu_instagram"
+            href="https://www.instagram.com/anagrigionails"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-rose-400 transition-colors"
@@ -21,7 +21,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://wa.me/5548999572643?text=Olá, vi seu site e quero agendar um horário! 💅"
+            href="https://wa.me/5548998481349?text=Olá, vi seu site e quero agendar um horário! 💅"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-rose-400 transition-colors"

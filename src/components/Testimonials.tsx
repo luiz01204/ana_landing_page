@@ -11,12 +11,12 @@ export default function Testimonials() {
     "/print_6.jpg",
   ];
 
-  const phone = "5548999572643";
+  const phone = "5548998481349";
 
   return (
     <section className="bg-white py-20 px-6 text-black">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-[#b3827d] mb-4">O Que Dizem Nossas Clientes</h2>
+        <h2 className="text-5xl font-bold text-[#b3827d] mb-4">O Que Dizem  Minhas Clientes</h2>
         <p className="text-lg text-gray-600 mb-12">
           Carinho, profissionalismo e satisfação em cada atendimento.
         </p>
