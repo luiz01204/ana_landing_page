@@ -31,7 +31,7 @@ export default function AboutMe() {
             Hoje, após muita dedicação, cursos e muito trabalho, me orgulho em oferecer um serviço profissional, com carinho, atenção aos detalhes e aquele toque especial que só quem ama o que faz consegue entregar.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Aqui, cada unha é única, e cada cliente sai se sentindo mais linda do que entrou. 💅✨
+            Aqui, cada unha é única, e cada cliente sai com autoestima renovada. 💅✨
           </p>
 
             {/* Botão igual do About */}
