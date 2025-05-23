@@ -44,7 +44,7 @@ export const metadata = {
   authors: [{ name: "Luiz Antonio Dos Santos" }],
   creator: "Luiz Antonio Dos Santos",
   openGraph: {
-    title: "Ana Grigio | Nails Designer em Alta Floresta",
+    title: "Ana Grigio | Nails Designer em Criciúma",
     description:
       "Landing page profissional da Ana Grigio, especialista em unhas de gel. Veja fotos, conheça os serviços e agende seu horário pelo WhatsApp.",
     url: "https://ana-landing-page-puce.vercel.app/",
