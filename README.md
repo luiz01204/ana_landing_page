@@ -29,11 +29,5 @@ Projeto desenvolvido em **Next.js** com foco em performance, responsividade e id
 - [TypeScript](https://www.typescriptlang.org/)
 - [Image Optimization](https://nextjs.org/docs/api-reference/next/image) com `.webp`
 
----
 
-## 🚀 Como rodar localmente
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+## [Conheça o projeto](https://ana-landing-page-puce.vercel.app/)
