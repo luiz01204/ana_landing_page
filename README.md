@@ -2,6 +2,8 @@
 
 Landing page profissional e charmosa para a **Ana Grigio**, especialista em unhas de gel.
 
+![Demonstração da landing page](./public/ana_landing_page.gif)
+
 Projeto desenvolvido em **Next.js** com foco em performance, responsividade e identidade visual personalizada.
 
 ---
