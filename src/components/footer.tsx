@@ -30,6 +30,19 @@ export default function Footer() {
           </a>
         </div>
       </div>
+
+      {/* Créditos do Dev */}
+      <div className="mt-8 text-center text-sm text-[#b3827d]">
+        Desenvolvido por{" "}
+        <a
+          href="https://luizmachado.dev.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-rose-400"
+        >
+          Luiz Machado
+        </a>
+      </div>
     </footer>
   );
 }
