@@ -23,7 +23,7 @@ export default function LinksPage() {
 
           {/* Endereço */}
           <a
-            href="https://g.co/kgs/urjFdS5"
+            href="https://maps.app.goo.gl/ovmq66zk5fdTQB2J8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-[#f9f4f3] text-[#b3827d] font-semibold px-6 py-4 rounded-full hover:bg-rose-100 transition"
